@@ -1,5 +1,5 @@
 // //array questions
-// //15/24
+// //16/24
 
 // //que-1  
 // let array=[1,2,3,4]
@@ -130,4 +130,4 @@
 // }
 
 
-// console.log(maxDifference([2, 3, 10, 6, 4, 8, 1])); #123
+// console.log(maxDifference([2, 3, 10, 6, 4, 8, 1])); 
