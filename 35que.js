@@ -1,5 +1,3 @@
-
-
 // // que-1
 // console.log("hello world")
 
@@ -212,6 +210,7 @@
 // let str="ridham"
 // console.log(str.length)
 
+
 // //que-18 Reverse a string 
 // let str="ridham";
 // a=str.split('').reverse().join('');
@@ -308,8 +307,32 @@
 // let a=str.split('').reverse().join('')
 // console.log(a)
 
+// //que-29 (finding lcm)
+// a = 4
+// b = 6
+// const lcm = (a, b) => {
+//     for (i = 0; i <= 30; i++) {
+//         c = i * a
+//         d = c % b == 0
+//         if (d && c != 0) {
+//             return ("Lcm of 'a' and 'b' is", c)
+//         }
+//     }
+// }
 
-// //que-30 calculating the power of number 
+// console.log(lcm(a, b))
+// //  Or
+// for (i = 0; i <= 30; i++) {
+//     c = i * a
+//     d = c % b == 0
+//     if (d && c != 0) {
+//         console.log("Lcm of 'a' and 'b' is", c)
+//         break
+//     }
+// }
+
+
+// //que-30 calculating the power of number
 // let a=Math.pow(10,2);
 // console.log(a);
 
@@ -326,11 +349,11 @@
 //     console.log(num,"Is a armstrong number ")
 // }else{
 //    console.log(num,"It is not a armstrong number")
-// } 
+// }
 
 
 
-// //que-34(for finding second max number) 
+// //que-34(for finding second max number)
 // let arr=[2,3,4,5];
 // let max=arr[0];
 // let secmax=arr[0];
@@ -347,7 +370,7 @@
 // }console.log(secmax)
 
 
-//que-35(for checking perfect square root) 
+//que-35(for checking perfect square root)
 // let num=26;
 // for(i=1;i<=num;i++){
 //     if(num==i*i){
